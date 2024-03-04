@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+:root {
+  --main-color: #c08261;
+  --secondary-color: #dde6ed;
+  --main-bg-color: #1b1a55;
+}
