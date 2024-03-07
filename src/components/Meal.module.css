@@ -1,0 +1,27 @@
+.meal {
+  /* width: fit-content; */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--main-color);
+  background-color: #fff;
+  width: 20rem;
+  height: 20rem;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translate(0, -5px);
+}
+
+.meal img {
+  height: 100%;
+}
+.mealText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}

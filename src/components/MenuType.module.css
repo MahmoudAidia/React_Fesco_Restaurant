@@ -1,0 +1,15 @@
+.menuType h2 {
+  padding: 3rem 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.listContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 0 auto;
+}

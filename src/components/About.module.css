@@ -1,0 +1,54 @@
+.about {
+  width: 100%;
+  background-color: #fff;
+  padding: var(--section-padding) 0;
+}
+
+.aboutBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutTextBox {
+  display: flex;
+  align-items: center;
+}
+
+.aboutText {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.aboutText h2 {
+  font-size: 6.4rem;
+  color: var(--main-color);
+  padding-bottom: 3rem;
+}
+
+.aboutText p {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.aboutImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutImg img {
+  width: 40rem;
+}
+
+@media (max-width: 1010px) {
+  .aboutBox {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .about {
+    padding-bottom: 3rem;
+  }
+
+  .aboutImg img {
+    width: 80%;
+  }
+}

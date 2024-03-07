@@ -1,0 +1,23 @@
+.item {
+  width: 100%;
+  text-align: start;
+  padding-bottom: 2rem;
+}
+
+.item h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.item div {
+  display: flex;
+}
+.item div p {
+  font-size: 1.6rem;
+}
+
+.item .price {
+  color: var(--main-color);
+  font-size: 2rem;
+}

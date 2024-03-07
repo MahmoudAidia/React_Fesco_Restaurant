@@ -1,0 +1,24 @@
+.menu {
+  background-color: var(--main-bg-color);
+}
+
+.menuBox {
+  padding: var(--section-padding) 0;
+}
+
+.menuHeader {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.menuHeader h2 {
+  color: var(--main-color);
+  font-size: 6.4rem;
+  font-style: italic;
+  letter-spacing: -1px;
+  padding-bottom: 1rem;
+}
+
+.menuHeader p {
+  font-size: 1.8rem;
+}
