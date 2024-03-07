@@ -15,5 +15,6 @@ body {
 :root {
   --main-color: #c08261;
   --secondary-color: #dde6ed;
-  --main-bg-color: #1b1a55;
+  --main-bg-color: #111137;
+  --section-padding: 10rem;
 }

@@ -1,0 +1,22 @@
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.btnContainer button {
+  padding: 1rem 3rem;
+  background: none;
+  border: 2px solid var(--main-color);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btnContainer button:hover {
+  background-color: var(--main-color);
+}

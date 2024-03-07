@@ -1,7 +1,5 @@
 .container {
   width: 95%;
-  height: 100vh;
   margin: 0 auto;
-  padding: 0 5rem;
-  /* background-color: #aaa; */
+  padding: 0 2rem;
 }

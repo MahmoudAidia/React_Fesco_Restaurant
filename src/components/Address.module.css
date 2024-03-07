@@ -1,0 +1,12 @@
+.title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding-bottom: 0.2rem;
+}
+.address {
+  font-size: 1.4rem;
+}
+
+.addressBox {
+  padding-bottom: 1.5rem;
+}

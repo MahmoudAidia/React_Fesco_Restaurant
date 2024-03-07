@@ -1,5 +1,6 @@
 .hero {
   width: 100%;
+  height: auto;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.3),
@@ -10,4 +11,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 1010px) {
+  .hero {
+    height: auto;
+  }
 }

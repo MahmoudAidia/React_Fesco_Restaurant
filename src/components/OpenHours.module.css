@@ -1,0 +1,17 @@
+.openHoursBox {
+  padding-bottom: 1.5rem;
+}
+
+.openHoursBox h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding-bottom: 0.2rem;
+}
+
+.openHoursBox p {
+  font-size: 1.4rem;
+}
+
+.openHoursBox p span {
+  display: inline-block;
+}

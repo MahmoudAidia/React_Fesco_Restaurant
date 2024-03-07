@@ -1,0 +1,29 @@
+.contactBox {
+  min-width: 20rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  background-color: var(--main-bg-color);
+  padding: 2rem 3rem;
+}
+
+.contactTitle {
+  color: var(--main-color);
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.contactText {
+  padding-bottom: 1.5rem;
+}
+
+.contactBox a {
+  display: inline-block;
+  color: var(--main-color);
+  padding-bottom: 1.5rem;
+  transition: all 0.4s;
+}
+.contactBox a:hover {
+  cursor: pointer;
+  color: #fff;
+}
