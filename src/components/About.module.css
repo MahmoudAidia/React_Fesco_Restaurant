@@ -35,7 +35,8 @@
   justify-content: center;
 }
 .aboutImg img {
-  width: 40rem;
+  /* width: 40rem; */
+  width: 60%;
 }
 
 @media (max-width: 1010px) {
@@ -49,6 +50,6 @@
   }
 
   .aboutImg img {
-    width: 80%;
+    width: 50%;
   }
 }

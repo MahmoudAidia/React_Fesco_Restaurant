@@ -19,6 +19,13 @@
   padding-bottom: 1rem;
 }
 
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
 .menuHeader p {
   font-size: 1.8rem;
 }

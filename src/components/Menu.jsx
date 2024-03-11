@@ -1,6 +1,7 @@
 import Container from "../UI/Container";
 import styles from "./Menu.module.css";
 import MenuType from "./MenuType";
+import Button from "../UI/Button";
 function Menu() {
   return (
     <section className={styles.menu}>
@@ -14,6 +15,10 @@ function Menu() {
             </p>
 
             <MenuType title="Pizza" />
+            <MenuType title="Dessert" />
+            <div className={styles.btnContainer}>
+              <Button>View All Menu</Button>
+            </div>
           </div>
         </div>
       </Container>

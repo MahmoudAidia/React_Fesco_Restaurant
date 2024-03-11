@@ -12,6 +12,7 @@
 
 .item div {
   display: flex;
+  gap: 4rem;
 }
 .item div p {
   font-size: 1.6rem;
