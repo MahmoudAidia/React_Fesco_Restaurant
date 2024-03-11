@@ -5,8 +5,8 @@ function OpenHours() {
     <div className={styles.openHoursBox}>
       <h3>opening hours</h3>
       <p>
-        <span>Monday - Friday..........8:00am - 11pm</span>
-        <span>Saturday - Sunday..........8:00am - 7pm</span>
+        <p>Monday - Friday..........8:00am - 11pm</p>
+        <p>Saturday - Sunday..........8:00am - 7pm</p>
       </p>
     </div>
   );

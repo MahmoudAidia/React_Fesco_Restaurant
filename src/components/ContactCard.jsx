@@ -15,7 +15,7 @@ function ContactCard() {
       <a>View map</a>
       <OpenHours />
 
-      <ReservationBtn />
+      <ReservationBtn>Table Reservation</ReservationBtn>
     </div>
   );
 }

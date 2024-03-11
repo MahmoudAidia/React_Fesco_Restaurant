@@ -1,9 +1,9 @@
 import styles from "./ReservationBtn.module.css";
 
-function ReservationBtn() {
+function ReservationBtn({ children }) {
   return (
     <div className={styles.btnContainer}>
-      <button>Table Reservation</button>
+      <button>{children}</button>
     </div>
   );
 }
