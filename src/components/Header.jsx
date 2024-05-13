@@ -1,28 +1,50 @@
 import styles from "./Header.module.css";
-
+import { motion } from "framer-motion";
 import { HiViewList } from "react-icons/hi";
 
 function Header() {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-        <h1>Fesco</h1>
+        <motion.h1 initial={{ y: 200 }} animate={{ y: 0 }}>
+          Fesco
+        </motion.h1>
         <ul className={styles.links}>
-          <li>
+          <motion.li
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.1 }}
+          >
             <span>Home</span>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.2 }}
+          >
             <span>About</span>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.3 }}
+          >
             <span>Menu</span>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             <span>Reservation</span>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             <span>Contact</span>
-          </li>
+          </motion.li>
         </ul>
 
         <HiViewList className={styles.listIcon} />
