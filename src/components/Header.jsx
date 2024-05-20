@@ -1,8 +1,12 @@
 import styles from "./Header.module.css";
 import { motion } from "framer-motion";
+import { useState } from "react";
 import { HiViewList } from "react-icons/hi";
+import MobileNav from "./MobileNav";
 
 function Header() {
+  const [showMobileNav, setShowMobileNav] = useState(false);
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -47,7 +51,12 @@ function Header() {
           </motion.li>
         </ul>
 
-        <HiViewList className={styles.listIcon} />
+        <HiViewList
+          className={styles.listIcon}
+          onClick={() => setShowMobileNav((prev) => !prev)}
+        />
+
+        {showMobileNav && <MobileNav />}
       </nav>
     </header>
   );

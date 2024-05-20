@@ -3,8 +3,11 @@ import Button from "../UI/Button";
 import styles from "./Form.module.css";
 
 function Form() {
+  function formHandler(e) {
+    e.preventDefault();
+  }
   return (
-    <form>
+    <form onClick={formHandler}>
       <div className={styles.formBox}>
         <div>
           <label>Choose a data</label>
